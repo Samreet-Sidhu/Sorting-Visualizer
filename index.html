@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+    <div class="navbar">
+        <h1>Sorting Visualizer</h1>
+        <a href="https://github.com/Samreet-Sidhu" target="_blank" class="github-logo">
+            <img src="github-dark.svg" alt="GitHub Logo">
+        </a>
+    </div>
+    <div id="container"></div>
+    <hr>
+    <div class="controls">
+        <button class="btn" onclick="init()">Generate Array</button>
+        <button class="btn" onclick="play(bubbleSort)">Bubble Sort</button>
+        <button class="btn" onclick="play(insertionSort)">Insertion Sort</button>
+        <button class="btn" onclick="play(selectionSort)">Selection Sort</button>
+      
+      
+        <!-- <button class="btn" onclick="play(() => mergeSort(array))">Merge Sort</button>
+        <button class="btn" onclick="play(() => quickSort(array))">Quick Sort</button>
+        <button class="btn" onclick="play(() => heapSort(array))">Heap Sort</button> -->
+
+
+    </div>
+    <div>
+        <label for="speed">Speed:</label>
+        <input type="range" id="speed" min="10" max="200" value="50">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

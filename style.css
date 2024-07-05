@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url('sorting.jpeg') no-repeat center center fixed; 
+    backface-visibility: hidden;
+    background-size: cover;
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding: 150px;
+}
+
+.bar {
+    width: 20px;
+    background-color: black;
+    margin: 2px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+input[type=range] {
+    width: 200px;
+    margin: 10px;
+}
+.navbar {
+    background-color: #333;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    overflow: hidden;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 100%; 
+    position: fixed;
+    top: 0; 
+    z-index: 1000; 
+}
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.github-logo {
+    cursor: pointer;
+}
+.github-logo img {
+    width: 30px;
+    height: auto;
+}
+.github-logo:hover {
+    opacity: 0.8;
+}
